@@ -21,3 +21,5 @@ print(s)
 colors = np.array(["#f442bf", "#6e41f4", "#f4dc41"])[s.cat.codes]
 plt.scatter(iris.petal_length, iris.petal_width, c=colors)
 plt.show()
+
+
